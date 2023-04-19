@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		718646DF29F0152C00DEDF4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718646DE29F0152C00DEDF4F /* AppDelegate.swift */; };
 		718646E129F0152C00DEDF4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718646E029F0152C00DEDF4F /* SceneDelegate.swift */; };
-		718646E329F0152C00DEDF4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718646E229F0152C00DEDF4F /* ViewController.swift */; };
 		718646E629F0152C00DEDF4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718646E429F0152C00DEDF4F /* Main.storyboard */; };
 		718646E829F0152D00DEDF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718646E729F0152D00DEDF4F /* Assets.xcassets */; };
 		718646EB29F0152D00DEDF4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718646E929F0152D00DEDF4F /* LaunchScreen.storyboard */; };
+		718646F329F0158F00DEDF4F /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718646F229F0158F00DEDF4F /* Emoji.swift */; };
+		718646F929F0179800DEDF4F /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718646F829F0179800DEDF4F /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		718646DB29F0152C00DEDF4F /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		718646DE29F0152C00DEDF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		718646E029F0152C00DEDF4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		718646E229F0152C00DEDF4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		718646E529F0152C00DEDF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		718646E729F0152D00DEDF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		718646EA29F0152D00DEDF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		718646EC29F0152D00DEDF4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718646F229F0158F00DEDF4F /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		718646F829F0179800DEDF4F /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 		718646D229F0152C00DEDF4F = {
 			isa = PBXGroup;
 			children = (
+				718646F229F0158F00DEDF4F /* Emoji.swift */,
+				718646F829F0179800DEDF4F /* EmojiTableViewController.swift */,
 				718646DD29F0152C00DEDF4F /* EmojiDictionary */,
 				718646DC29F0152C00DEDF4F /* Products */,
 			);
@@ -58,7 +62,6 @@
 			children = (
 				718646DE29F0152C00DEDF4F /* AppDelegate.swift */,
 				718646E029F0152C00DEDF4F /* SceneDelegate.swift */,
-				718646E229F0152C00DEDF4F /* ViewController.swift */,
 				718646E429F0152C00DEDF4F /* Main.storyboard */,
 				718646E729F0152D00DEDF4F /* Assets.xcassets */,
 				718646E929F0152D00DEDF4F /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				718646E329F0152C00DEDF4F /* ViewController.swift in Sources */,
+				718646F929F0179800DEDF4F /* EmojiTableViewController.swift in Sources */,
+				718646F329F0158F00DEDF4F /* Emoji.swift in Sources */,
 				718646DF29F0152C00DEDF4F /* AppDelegate.swift in Sources */,
 				718646E129F0152C00DEDF4F /* SceneDelegate.swift in Sources */,
 			);
